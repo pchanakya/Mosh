@@ -12,7 +12,7 @@ function App() {
           setAlertVisible(true);
         }}
       >
-        My Button
+        My bad Button
       </Button>
     </div>
   );
