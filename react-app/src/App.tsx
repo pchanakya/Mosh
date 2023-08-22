@@ -6,15 +6,6 @@ function App() {
   const [alertVisible, setAlertVisible] = useState(false);
   return (
     <div>
-      {alertVisible && (
-        <Alert
-          setvid={() => {
-            setAlertVisible(false);
-          }}
-        >
-          My alert
-        </Alert>
-      )}
       <Button
         color="primary"
         onClick={() => {
